@@ -22,6 +22,7 @@ code {
   
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
+ 
 }
 
 .profile {
@@ -69,8 +70,27 @@ width: 100% !important;
   .sidebar_iki{
      display:none;
   }
+  .tab {
+    display: none;
+  }
+  .tabs {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+  }
+  .tab_icon {
+    margin-top: 75px;
+    width: 50px;
+    transform: scale(2);
+    cursor: pointer;
+  }
+  .tab_icon:hover {
+    transform: scale(2.2);
+  }
+
 }
 
 .post_media {
   width: 50% !important;
 }
+

@@ -17,7 +17,7 @@ const Post = ({ value }) => {
               style={{ height: "50px" }}
             />
           </div>{" "}
-          <h5 className="ps-2">Eren Eroğlu</h5>
+          <h5 className="ps-2 pt-2">Eren Eroğlu</h5>
          
         </div>
         <div className=" d-flex flex-start">{value}</div>
