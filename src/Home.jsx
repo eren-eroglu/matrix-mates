@@ -1,15 +1,12 @@
-import pp from "./img/linked.jpeg";
+
 import media from "./img/media.svg";
 import emoji from "./img/emoji.svg";
 import location from "./img/location.svg";
-import { SlLike } from "react-icons/sl";
-import {SlDislike} from "react-icons/sl"
-import {FiShare2} from "react-icons/fi"
-import {TfiMoney} from "react-icons/tfi"
-import {SiFigshare} from "react-icons/si"
+
+
 import logo from "./img/logo.png"
 import Post from "./Post";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const Home = (props) => {
   const [posts, setPosts] = useState([])

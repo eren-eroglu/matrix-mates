@@ -9,7 +9,7 @@ const LeftBar = () => {
    <div className="sidebar w-25">
        <div className="sidebar w-25 h-100 d-flex flex-column justify-content-around  ">
                 <div>
-                <AiOutlineHome/><h5 class="mb-5"> HOME</h5>
+                <AiOutlineHome/><h5 className="mb-5"> HOME</h5>
                 <AiOutlineSearch/>
                 <h5 className="mb-5">SEARCH</h5>
                 <AiOutlineNotification/>

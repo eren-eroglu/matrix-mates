@@ -18,7 +18,7 @@ const Post = ({ value }) => {
             />
           </div>{" "}
           <h5 className="ps-2">Eren Eroğlu</h5>
-          <p className="tag ps-3">@ErenEroglu_Eng</p>
+         
         </div>
         <div className=" d-flex flex-start">{value}</div>
         <div className="interactions d-flex d-flex justify-content-between ps-2 pt-2">

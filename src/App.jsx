@@ -1,5 +1,5 @@
 import "./App.css";
-import logo from "./img/logo.png";
+
 import LeftBar from "./LeftBar";
 import Home from "./Home";
 import RightBar from "./RightBar";
