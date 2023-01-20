@@ -24,6 +24,10 @@ const Home = (props) => {
     }
   }
   const showModal = props.showModal;
+  
+  const deletePost = () => {
+    
+   }
   return (
     <main className="main w-100 d-flex flex-column">
      
@@ -67,11 +71,11 @@ const Home = (props) => {
       </div>
       <main className="post_main w-100 mt-3 d-flex justify-content-center align-items-center">
         <div className="post_media">
-          <section className="d-flex flex-column ">
+          <section className="d-flex flex-column post_parent ">
             <Post value="This is Matrix-Mates! You can post too! Just try 🤯"></Post>
 
             {posts.map((post) => {
-              return <Post value={post}></Post>;
+              return <Post deletePost={deletePost}  key={Math.random()} value={post}></Post>;
             })}
           </section>
         </div>
